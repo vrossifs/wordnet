@@ -1,0 +1,12 @@
+{
+  "lamaran": [
+    ["aplikasi", "permintaan"]
+  ],
+  "aplikasi": [
+    ["operasi", "pelaksanaan", "penerapan", "penggunaan", "praktik", "rekayasa"],
+    ["lamaran", "permintaan", "permohonan"]
+  ],
+  "permintaan": [
+    ["ajakan", "amanat", "anjuran", "aplikasi", "desakan", "doa", "pengharapan", "imbauan", "klaim", "lamaran", "panggilan", "permohonan", "petisi", "pinangan", "pinta", "rayuan", "rekes", "seruan", "suruhan", "tempahan", "undangan"]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "gagu": [
+    ["bisu", "kelu", "tunawicara"]
+  ],
+  "bisu": [
+    [ "gagu", "kelu", "tunawicara"]
+  ],
+  "kelu": [
+    ["kaku"]
+  ],
+  "tunawicara": [
+    [ "bisu", "gagu"]
+  ]
+}

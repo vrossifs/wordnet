@@ -1,0 +1,17 @@
+{
+  "eka": [
+    ["esa", "satu", "tunggal"]
+  ],
+  "esa": [
+    ["ahad", "satu", "tunggal"]
+  ],
+  "satu": [
+    ["ahad", "eka", "esa", "homo-", "iso-", "mono-", "se-", "suatu", "tunggal", "uni", "unik", "wahid"]
+  ],
+  "tunggal": [
+    ["ahad", "esa", "satu"],
+    ["sendiri", "singular", "individual", "perorangn", "solo"],
+    ["satu-satunya", "semata wayang", "wahid"],
+    ["abulat", "utuh"]
+  ]
+}

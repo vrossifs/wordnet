@@ -1,0 +1,27 @@
+{
+  "buat": [
+    ["kerjakan", "lakukan"],
+    ["bikin"],
+    ["bagi", "untuk"]
+  ],
+  "kerjakan": [
+    []
+  ],
+  "lakukan": [
+    []
+  ],
+  "bikin": [
+    []
+  ],
+  "bagi": [
+    ["alokasi", "belah", "distribusi", "jatah", "paruh", "pecah", "penggal", "perincian", "porsi", "potong", "ransum"],
+    ["per"],
+    ["akan", "buat", "guna", "kalau", "kepada", "menurut", "oleh", "pada", "untuk"],
+    ["agih", "beri", "kasih"]
+  ],
+  "untuk": [
+    ["akan", "bagi", "bakal", "buat", "kepada", "mendapatkan", "menjelang", "menjumpai", "menurut"],
+    ["demi", "perlu"],
+    ["selama", "sepanjang"]
+  ]
+}

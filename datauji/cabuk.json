@@ -1,0 +1,11 @@
+{
+  "cabuk": [
+    ["kelemayuh", "pekung"]
+  ],
+  "kelemayuh": [
+    ["cabuk", "pekung"]
+  ],
+  "pekung": [
+    ["cabuk", "kelemayuh"]
+  ]
+}

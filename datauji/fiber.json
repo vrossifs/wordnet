@@ -1,0 +1,9 @@
+{
+  "fiber": [
+    ["serat"]
+  ],
+  "serat": [
+    ["fiber", "serabut"],
+    ["macet", "sendat", "seret"]
+  ]
+}

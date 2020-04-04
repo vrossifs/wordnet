@@ -1,0 +1,11 @@
+{
+  "pacul": [
+    ["cangkul", "pangkur"]
+  ],
+  "cangkul": [
+    ["pacul", "pangkur", "penggali"]
+  ],
+  "pangkur": [
+    ["cangkul", "pacul"]
+  ]
+}

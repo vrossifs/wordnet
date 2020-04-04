@@ -1,0 +1,8 @@
+{
+  "mampir": [
+    ["singgah"]
+  ],
+  "singgah": [
+    ["mampir", "mengadar"]
+  ]
+}

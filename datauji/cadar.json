@@ -1,0 +1,16 @@
+{
+  "cadar": [
+    ["kain", "kerudung", "selubung"]
+  ],
+  "kain": [
+    ["tekstil", "tenunan"]
+  ],
+  "kerudung": [
+    ["jilbab", "kudung", "tengkuluk"],
+    ["cadar", "selir", "selubung"]
+  ],
+  "selubung": [
+    ["kelumun"], 
+    ["berguk", "cadar", "kerudung", "layah", "purdah", "selir", "tudung lingkup"]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "madukara": [
+    ["kumbang", "lebah", "tabuhan", "tawon"]
+  ],
+  "kumbang": [
+    ["lebah", "madukara", "tawon"]
+  ],
+  "lebah": [
+    ["kumbang", "madukara", "tabuhan", "tawon"]
+  ],
+  "tabuhan": [
+    ["kerawai", "kumbang", "lebah", "madukara", "naning", "sigenting", "tawon"]
+  ],
+  "tawon": [
+    ["kumbang", "lebah", "madukara", "tabuhan"]
+  ]
+}

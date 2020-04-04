@@ -1,0 +1,19 @@
+{
+  "nagari": [
+    ["daerah", "distrik", "negeri"]
+  ],
+  "daerah": [
+    ["alam", "alun-alun", "area", "arena", "arpa", "bulatan", "bundaran", "cutak", "gelanggang", "kalangan", "kampus", "kancah", "kawasan", "koloni", "korong", "landasan", "lingkaran", "lingkungan", "lokasi", "luruh", "mandala", "medan", "mintakat", "mukim", "padang", "ruang", "tanah lapang", "tempat luak", "tempat", "teritori", "wilayah", "zona"],
+    ["bilangan", "domain", "ranah"],
+    ["desa", "distrik", "dusun", "kampung", "marga", "nagari", "negeri", "tanah", "udik"],
+    ["provinsi", "wilayah"],
+    ["rayon", "region", "resor"],
+    ["bagian", "bidang", "sektor", "unit"]
+  ],
+  "distrik": [
+    ["area", "daerah", "kawasan", "kewedanan", "negeri", "provinsi", "wilayah"]
+  ],
+  "negeri": [
+    ["bumi", "daerah", "distrik", "ibu pertiwi", "janabijana", "kampung halaman", "kandang", "kota", "nagari", "praja", "tanah air", "tanah tumpah darah", "tempat kelahiran"]
+  ]
+}

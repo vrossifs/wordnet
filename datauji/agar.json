@@ -1,0 +1,18 @@
+{
+  "agar": [
+    ["biar", "mudah-mudahan", "semoga", "supaya"]
+  ],
+  "biar": [
+    ["kendati", "meski"],
+    ["agar", "supaya"]
+  ],
+  "mudah-mudahan": [
+    ["agar", "barangkali", "boleh jadi", "hendaknya", "hubaya-hubaya", "kiranya", "moga-moga", "mungkin", "semoga"]
+  ],
+  "semoga": [
+    ["hendaknya", "moga-moga", "mudah-mudahan"]
+  ],
+  "supaya": [
+    ["agar", "biar"]
+  ]
+}

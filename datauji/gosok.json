@@ -1,0 +1,14 @@
+{
+  "gosok": [
+    ["asah", "calak", "gesek"]
+  ],
+  "asah": [
+    ["calak", "gosok", "jerah", "kilir", "lampas"]
+  ],
+  "calak": [
+    ["melampas", "mencelak", "asah", "gosok", "menyelip", "menyerudi"]
+  ],
+  "gesek": [
+    ["gisil", "gosok"]
+  ]
+}

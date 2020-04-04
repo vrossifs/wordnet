@@ -1,0 +1,14 @@
+{
+  "jambe": [
+    ["maman", "pinang", "pucang"]
+  ],
+  "maman": [
+    ["jambe", "pinang", "pucang"]
+  ],
+  "pinang": [
+    ["jambe", "maman", "pucang"]
+  ],
+  "pucang": [
+    []
+  ]
+}

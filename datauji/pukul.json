@@ -1,0 +1,15 @@
+{
+  "pukul": [
+    ["getok", "ketuk"],
+    ["memukul"]
+  ],
+  "getok": [
+    ["ketuk", "pukul", "tutuk", "totok"]
+  ],
+  "ketuk": [
+    ["getok", "ketok", "pukul"]
+  ],
+  "memukul": [
+    []
+  ]
+}

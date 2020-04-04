@@ -1,0 +1,12 @@
+{
+  "fana": [
+    ["sementara", "temporer"]
+  ],
+  "sementara": [
+    ["darurat", "fana", "temporer"],
+    ["provisional", "tentatif"]
+  ],
+  "temporer": [
+    ["darurat", "provisional", "sementara", "tentatif"]
+  ]
+}

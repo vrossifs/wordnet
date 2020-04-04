@@ -1,0 +1,8 @@
+{
+  "bentak": [
+    ["hardik"]
+  ],
+  "hardik": [
+    ["bentak", "damprat", "pekik", "redik", "tengking"]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "bingkai": [
+    ["birai", "gipsum", "lis", "pigura", "rangka", "simpai"]
+  ],
+  "birai": [
+    ["bingkai", "lis", "pigura"]
+  ],
+  "gipsum": [
+    []
+  ],
+  "lis": [
+    ["bingkai", "pigura"],
+    ["catatan", "daftar", "katalog", "register", "sijil", "skedul"]
+  ],
+  "pigura": [
+    ["gambar", "lukisan"],
+    ["bingkai", "birai", "lis"]
+  ],
+  "rangka": [
+    ["bagan", "bentuk", "buram", "gambar", "kerangka", "lembaga", "rajah", "rancangan", "rang", "rencana", "susuk", "tulang beragangan", "tulang tulangan"]
+  ],
+  "simpai": [
+    ["bingkai", "birai", "lis", "rangka"],
+    ["gelanggelang", "kelikir", "kili-kili", "sendi", "simpai", "temin"]
+  ]
+}

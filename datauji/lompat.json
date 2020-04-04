@@ -1,0 +1,14 @@
+{
+  "lompat": [
+    ["kinja", "loncat", "lonjak"]
+  ],
+  "kinja": [
+    ["lompat", "loncat", "lonjak"]
+  ],
+  "loncat": [
+    ["lompat"]
+  ],
+  "lonjak": [
+    ["lompatan"]
+  ]
+}

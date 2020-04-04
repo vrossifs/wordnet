@@ -1,0 +1,16 @@
+{
+  "darat": [
+    ["bumi", "tanah"]
+  ],
+  "bumi": [
+    ["adam", "alam", "ardi", "bentala", "buana", "butala", "dunia", "globe", "jagat", "planet", "rat"],
+    ["darat", "pertiwi", "tanah"]
+  ],
+  "tanah": [
+    ["bentala", "butala", "bumi", "darat", "pertiwi"],
+    ["benua", "pulau"],
+    ["kapling", "lahan", "persil"],
+    ["negeri", "teritori", "wilayah"],
+    ["daerah", "desa"]
+  ]
+}

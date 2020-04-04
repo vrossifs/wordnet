@@ -1,0 +1,24 @@
+{
+  "acuh": [
+    ["hirau", "hisab", "indah", "ingat", "peduli"]
+  ],
+  "hirau": [
+    ["acuh", "bena", "hisab", "ingat", "peduli", "tahu"]
+  ],
+  "hisab": [
+    ["hitung", "perhitungan", "perkiraan"],
+    ["acuh", "bena", "hirau", "indah", "peduli"]
+  ],
+  "indah": [
+    ["artistik", "bagus", "bahari", "baik", "bergaya", "cakap", "cantik", "dikara", "elok", "jalak lawa", "kirana", "lenteng", "majelis", "menarik", "menawan", "molek", "mulia", "permai", "rupawan", "sani", "segak"]
+  ],
+  "ingat": [
+    ["tabu", "terkenang"],
+    ["bangun", "sadar", "siuman"],
+    ["acuh", "anggap", "bercadang", "bermaksud", "berhajat", "berniat", "mau", "hirau", "kira", "peduli", "pendapat", "sangka", "tahu"],
+    ["memikirkan", "mempertimbangkan"]
+  ],
+  "peduli": [
+    ["acuh", "hirau", "hisab", "ingat", "tahu"]
+  ]
+}

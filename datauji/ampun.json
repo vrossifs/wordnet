@@ -1,0 +1,11 @@
+{
+  "ampun": [
+    ["maaf", "sori"]
+  ],
+  "maaf": [
+    ["ampun"]
+  ],
+  "sori": [
+    ["ampun", "maaf"]
+  ]
+}

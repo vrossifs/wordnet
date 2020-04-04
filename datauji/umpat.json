@@ -1,0 +1,24 @@
+{
+  "umpat": [
+    ["caci", "cerca", "hujat", "maki", "sumpah", "serapah"]
+  ],
+  "caci": [
+    ["bentak", "cela", "cerca", "damprat", "gertak", "hardik", "kritik", "kutuk", "maki", "nista", "pekik", "redik", "sembur", "senging", "serenging", "sumpah serapah", "tempelak", "tengking", "umpat"]
+  ],
+  "cerca": [
+    ["caci", "cela", "damprat", "hujat", "umpat"]
+  ],
+  "hujat": [
+    ["caci", "cerca", "fitnah", "umpat"]
+  ],
+  "maki": [
+    ["caci", "cerca", "hamun", "kutuk", "laknat", "marah", "nista", "sembur"]
+  ],
+  "sumpah": [
+    ["ikrar", "janji", "kaul", "nazar"],
+    ["kutuk", "laknat", "seranah", "serapah", "tulah"]
+  ],
+  "serapah": [
+    ["kutuk", "laknat", "seranah", "sumpah", "tulah"]
+  ]
+}

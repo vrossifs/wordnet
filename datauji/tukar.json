@@ -1,0 +1,18 @@
+{
+  "tukar": [
+    ["ganti", "salin", "silih", "ubah"]
+  ],
+  "ganti": [
+    ["berganti", "salin", "silih", "tiru", "tukar", "ubah"]
+  ],
+  "salin": [
+    ["alih", "ganti", "gilir", "pindah", "silih", "sulih", "tiru", "tukar", "ubah"]
+  ],
+  "silih": [
+    ["saling"],
+    ["ganti", "tukar", "ubah"]
+  ],
+  "ubah": [
+    ["alih", "ganti", "pindah", "pindai", "tukar", "salin"]
+  ]
+}

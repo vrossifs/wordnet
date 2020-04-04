@@ -1,0 +1,36 @@
+{
+  "sumpah": [
+    ["ikrar", "janji", "kaul", "nazar"],
+    ["kutuk", "laknat", "seranah", "serapah", "tulah"]
+  ],
+  "ikrar": [
+    ["akad", "janji", "kata sepakat", "padan", "prasetia", "sumpah", "taki"],
+    ["kepastian", "penetapan", "pengakuan", "pengesahan", "ratifikasi"]
+  ],
+  "janji": [
+    ["akad", "ijab", "ikat janji", "ikrar", "iktikad", "jaminan", "kaul", "keinginan", "kesanggupan", "kesepakatan", "ketentuan", "komitmen", "maksud", "nazar", "niat", "pengakuan", "persetujuan", "sumpah", "syarat", "waad", "waadah", "waid"],
+    ["ajal", "batas waktu", "had", "tempo", "tenggat", "waktu"]
+  ],
+  "kaul": [
+    ["janji", "nazar", "niat", "prasetia", "sumpah"],
+    ["perkataan", "ujaran"]
+  ],
+  "nazar": [
+    ["hasrat", "ikat janji", "kaul", "kehendak", "keinginan", "komitmen", "niat", "padan", "sumpah", "tekad"]
+  ],
+  "kutuk": [
+    ["laknat", "seranah", "serapah", "sumpah", "tulah"]
+  ],
+  "laknat": [
+    ["kutuk", "seranah", "serapah", "sumpah", "tulah"]
+  ],
+  "seranah": [
+    []
+  ],
+  "serapah": [
+    ["kutuk", "laknat", "seranah", "sumpah", "tulah"]
+  ],
+  "tulah": [
+    ["kualat", "kutuk", "laknat", "serapah", "sumpah"]
+  ]
+}

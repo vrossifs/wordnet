@@ -1,0 +1,8 @@
+{
+  "bahu": [
+    ["pundak"]
+  ],
+  "pundak": [
+    ["bahu"]
+  ]
+}

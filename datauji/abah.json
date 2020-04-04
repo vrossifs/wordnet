@@ -1,0 +1,29 @@
+{
+  "abah": [
+    ["arah", "depan", "hadap", "haluan", "jurus", "tuju"]
+  ],
+  "arah": [
+    ["cita-cita", "hadap", "haluan", "jurusan", "kiblat", "kompas", "mata angin", "niat", "panduan", "pedoman", "petunjuk"],
+    ["aspek", "faktor", "orientasi", "penjuru", "pihak", "sebelah", "segi", "sisi", "sudut", "tala"],
+    ["arti", "juntrungan", "maksud", "tembak", "ujung pangkal"]
+  ],
+  "depan": [
+    ["ambang", "dada", "front", "hadapan", "muka", "pendahuluan", "permulaan"]
+  ],
+  "hadap": [
+    ["arah", "hala", "jurusan", "paran", "tala", "tepas", "tuju"],
+    ["depan", "hadapan", "haluan", "muka"]
+  ],
+  "haluan": [
+    ["abah", "arah", "hadapan", "jurusan", "tujuan"],
+    ["depan", "muka"],
+    ["adicita", "ajaran", "aliran", "citacita", "fikrah", "filsafat", "ideologi", "maksud", "paham", "pedoman", "pemikiran"]
+  ],
+  "jurus": [
+    ["cenderung", "condong", "mengarah"],
+    ["berkecenderungan", "mengarah"]
+  ],
+  "tuju": [
+    ["menentang", "mengarah", "mendatangi", "mendekati"]
+  ]
+}

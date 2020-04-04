@@ -1,0 +1,18 @@
+{
+  "orasi": [
+    ["ceramah", "khotbah", "lektur", "pidato"]
+  ],
+  "ceramah": [
+    ["khotbah", "kuliah", "lektur", "orasi", "pidato", "syarah"]
+  ],
+  "khotbah": [
+    ["ceramah", "kuliah", "orasi", "pidato", "syarah"]
+  ],
+  "lektur": [
+    ["bacaan", "pustaka", "teks", "wacana"],
+    ["ceramah", "kuliah", "pidato"]
+  ],
+  "pidato": [
+    ["ceramah", "khotbah", "lektur", "orasi", "syarah"]
+  ]
+}

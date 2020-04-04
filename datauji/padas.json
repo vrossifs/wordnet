@@ -1,0 +1,11 @@
+{
+  "padas": [
+    ["cadas", "wadas"]
+  ],
+  "cadas": [
+    ["wadas", "padas"]
+  ],
+  "wadas": [
+    []
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "gas": [
+    ["asap", "angin", "udara"],
+    ["kentut"]
+  ],
+  "asap": [
+    ["gas", "tabun"]
+  ],
+  "angin": [
+    ["aliran udara", "arus udara", "badai", "bayu", "gas", "hawa", "kentut", "pawana", "siklon", "topan", "udara"]
+  ],
+  "udara": [
+    ["angin", "cuaca", "hawa"],
+    ["angkasa", "awangawang", "bumantara", "dirgantara", "gegana", "jumantara", "langit", "tawang"],
+    ["atmosfer", "keadaan", "suasana"]
+  ],
+  "kentut": [
+    []
+  ]
+}

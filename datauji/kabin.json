@@ -1,0 +1,15 @@
+{
+  "kabin": [
+    ["bilik", "kamar", "ruang"]
+  ],
+  "bilik": [
+    ["bidai", "dinding", "gedek", "kerai", "pagar", "sekat", "tadir", "tembok", "tepas"],
+    ["barak", "geladak", "kabin", "kamar", "kelas", "kurungan", "petak", "ruang", "sekatan", "sel", "sentong"]
+  ],
+  "kamar": [
+    ["barak", "bilik", "geladak", "kabin", "kurungan", "petak", "ruang", "sekatan", "tempat"]
+  ],
+  "ruang": [
+    [ "bagian", "bilik", "celah", "ceruk", "gua", "kalangan", "kamar", "kawasan", "kolom", "kurung", "lajur", "lapangan", "liang", "lingkungan", "lubang", "mimbar", "palka", "pangsa", "pojok", "rongga", "rubrik", "sal", "sela-sela", "tempat"]
+  ]
+}

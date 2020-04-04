@@ -1,0 +1,14 @@
+{
+  "eks": [
+    ["bekas", "dahulu", "mantan"]
+  ],
+  "bekas": [
+    ["eks", "mantan"]
+  ],
+  "dahulu": [
+    ["awal", "berlalu", "di depan", "di muka", "dulu", "lalu", "lampau", "lepas", "lewat", "mulamula", "purba", "silam", "sudah-sudah", "tempo hari", "waktu lalu"]
+  ],
+  "mantan": [
+    ["eks", "bekas"]
+  ]
+}

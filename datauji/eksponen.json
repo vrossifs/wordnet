@@ -1,0 +1,16 @@
+{
+  "eksponen": [
+    ["protagonis", "tokoh"]
+  ],
+  "protagonis": [
+    ["aditokoh", "hero", "pelaku utama", "tokoh utama"],
+    ["eksponen", "penganjur"]
+  ],
+  "tokoh": [
+    ["aktivis", "arsitek", "biang (keladi)", "dalang", "dedengkot", "eksponen", "gembong", "induk bala", "inisiator", "otak", "pelopor", "pemrakarsa", "pemuka", "pencetus", "pengambil inisiatif", "penggagas", "penggerak", "pentolan"],
+    ["aktor", "bintang", "pemain", "pemeran"],
+    ["bangun", "bentuk", "figur", "rupa", "wujud"],
+    ["bentuk tubuh", "perawakan", "postur", "raut", "sosok"],
+    ["kecoh", "tipu"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "nasrani": [
+    ["kristen", "masehi"]
+  ],
+  "kristen": [
+    ["masehi", "nasrani"],
+    ["Advent", "Katolik", "Protestan", "Ortodoks"]
+  ],
+  "masehi": [
+    ["kristen", "nasrani"]
+  ]
+}

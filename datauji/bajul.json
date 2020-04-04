@@ -1,0 +1,10 @@
+{
+  "bajul": [
+    ["buaya"]
+  ],
+  "buaya": [
+    ["bajul"],
+    ["bergajul", "penjahat"],
+    ["ahli", "biang", "pakar", "penggemar"]
+  ]
+}

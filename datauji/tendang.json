@@ -1,0 +1,15 @@
+{
+  "tendang": [
+    ["depak", "sepak", "terjang"]
+  ],
+  "depak": [
+    ["sepak", "tendang", "terajang", "terjang"]
+  ],
+  "sepak": [
+    ["depak", "tendang", "terjang"]
+  ],
+  "terjang": [
+    ["depak", "sepak", "tendang"],
+    ["serang", "serbu"]
+  ]
+}

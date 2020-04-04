@@ -1,0 +1,14 @@
+{
+  "tusuk": [
+    ["cocok", "tancap", "tikam"]
+  ],
+  "cocok": [
+    ["pacak", "sunduk", "tusukan"]
+  ],
+  "tancap": [
+    ["tusuk"]
+  ],
+  "tikam": [
+    ["tusukan"]
+  ]
+}

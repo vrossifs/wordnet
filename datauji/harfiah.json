@@ -1,0 +1,24 @@
+{
+  "harfiah": [
+    ["literal", "verbatim"],
+    ["lurus"]
+  ],
+  "literal": [
+    ["harfiah", "verbatim"],
+    ["lurus"],
+    ["prosais"]
+  ],
+  "verbatim": [
+    []
+  ],
+  "lurus": [
+    ["lempeng", "lencang"],
+    ["kejur"],
+    ["tegak", "vertikal"],
+    ["baik", "jujur", "mulus", "polos", "sadik", "setia", "terbuka", "tulus"],
+    ["benar", "betul", "lumrah", "lurus", "hak"],
+    ["normal", "sehat", "stabil"],
+    ["hadiah", "literal"],
+    ["paralel", "searah", "sejajar"]
+  ]
+}

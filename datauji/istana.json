@@ -1,0 +1,21 @@
+{
+  "istana": [
+    ["kastil", "keraton", "puri", "mahligai", "palis"]
+  ],
+  "kastil": [
+    []
+  ],
+  "keraton": [
+    ["istana", "kastil", "puri"],
+    ["kerajaan"]
+  ],
+  "puri": [
+    ["istana", "kastil", "keraton"]
+  ],
+  "mahligai": [
+    ["istana", "puri", "keratan", "palis", "kedalaman"]
+  ],
+  "palis": [
+    ["aborsi"]
+  ]
+}

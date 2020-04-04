@@ -1,0 +1,13 @@
+{
+  "cahar": [
+    ["cair", "encer"]
+  ],
+  "cair": [
+    ["cahar", "encer", "jelang", "lebur", "likuid", "luluh", "lumer", "reda", "surut"]
+  ],
+  "encer": [
+    ["cahar", "cair", "jelang"],
+    ["angin lalu", "enteng", "gampang", "kecil", "mudah", "remeh", "rendah", "ringan", "sepele"],
+    ["bernas", "brilian", "cemerlang", "cendekia", "cerdas", "cerdik", "genius", "pandai", "pintar", "ringan", "kepala", "tajam", "terang akal"]
+  ]
+}

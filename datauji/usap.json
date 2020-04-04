@@ -1,0 +1,11 @@
+{
+  "usap": [
+    ["belai", "elus"]
+  ],
+  "belai": [
+    ["bujuk", "cumbu", "elus", "gosokan", "pujuk", "sapuan", "sekaan", "urutan", "usap"]
+  ],
+  "elus": [
+    ["belai", "usap"]
+  ]
+}

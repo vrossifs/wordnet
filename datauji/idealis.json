@@ -1,0 +1,15 @@
+{
+  "idealis": [
+    ["pemimpi", "pengkhayal", "utopis"]
+  ],
+  "pemimpi": [
+    ["ilusionis", "pelamun", "pengkhayal", "utopis"]
+  ],
+  "pengkhayal": [
+    ["idealis", "ilusionis", "pelamun", "pemimpi", "utopian", "visioner"]
+  ],
+  "utopis": [
+    ["idealis", "pemimpi", "pengkhayal", "visioner"],
+    ["ideal", "imajiner", "khayali"]
+  ]
+}

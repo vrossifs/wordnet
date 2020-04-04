@@ -1,0 +1,19 @@
+{
+  "ceker": [
+    ["cakar", "kuku"],
+    ["kaki"]
+  ],
+  "cakar": [
+    ["ceker", "kakas", "kuku"],
+    ["balur", "baret", "barut", "besot", "calar", "garis", "garit", "gores", "lecet", "ledes", "parut"],
+    ["kukur", "cabau", "penggaruk"]
+  ],
+  "kuku": [
+    ["cakar", "ceker"],
+    ["cengkeram", "kekuasaan", "pengaruh", "tanduk"]
+  ],
+  "kaki": [
+    ["ceker", "suku", "tungkai"],
+    ["cagak", "penahan", "pengampu", "penongkat", "penopang", "penumpil", "penumpu", "penyangga"]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kabung": [
+    ["kerat", "penggal", "potong"]
+  ],
+  "kerat": [
+    ["iris", "penggal", "potong", "sayat"]
+  ],
+  "penggal": [
+    ["kabung", "kerat", "potong", "tebas"]
+  ],
+  "potong": [
+    ["kerat", "penggal", "sibir"]
+  ]
+}

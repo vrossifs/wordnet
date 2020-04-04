@@ -1,0 +1,11 @@
+{
+  "oral": [
+    ["lisan", "verbal"]
+  ],
+  "lisan": [
+    ["oral", "verbal"]
+  ],
+  "verbal": [
+    ["lisan", "oral"]
+  ]
+}

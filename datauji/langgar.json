@@ -1,0 +1,11 @@
+{
+  "langgar": [
+    ["bentur", "tabrak"]
+  ],
+  "bentur": [
+    ["langgar", "tabrak"]
+  ],
+  "tabrak": [
+    ["adu", "antem", "antuk", "bentok", "bentrok", "bentur", "bentus", "gesek", "hantam", "langgar", "sandung", "serang", "serbu", "terjang", "terpa", "tubruk", "tumbuk"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "edan": [
+    ["gila", "sinting"]
+  ],
+  "gila": [
+    ["abnormal", "bertukar akal", "sesat akal", "edan", "gendeng", "majenun","miring", "sedeng", "sinting", "terganggu"],
+    ["gila-gilaan", "luar biasa", "terlalu", "tidak masuk akal"]
+  ],
+  "sinting": [
+    [ "bertukar akal", "berubah akal", "edan", "gendeng", "gila", "majenun", "miring", "sakit ingatan", "sedeng", "senewen", "senteng", "sesat akal", "setengah", "terganggu"],
+    ["absurd", "edan", "gelo", "gemblung", "gila-gilaan"]
+  ]
+}

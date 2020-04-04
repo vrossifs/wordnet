@@ -1,0 +1,15 @@
+{
+  "tenda": [
+    ["bivak", "kamp", "kemah"]
+  ],
+  "bivak": [
+    ["barak", "kamp", "kemah", "tenda"]
+  ],
+  "kamp": [
+    ["barak", "bivak", "kemah"],
+    ["pengasingan", "penjara"]
+  ],
+  "kemah": [
+    ["tenda", "ceteri", "bivak"]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "gelar": [
+    ["julukan", "sebutan", "titel"]
+  ],
+  "julukan": [
+    ["identitas", "label", "nama", "panggilan", "predikat", "sebutan", "titel"]
+  ],
+  "sebutan": [
+    ["gelar", "identitas", "julukan", "label", "nama", "panggilan", "predikat", "titel"],
+    ["istilah"],
+    ["penyebutan"],
+    ["buah bibir"]
+  ],
+  "titel": [
+    ["gelar"],
+    ["judul", "kepala karangan", "tajuk"]
+  ]
+}

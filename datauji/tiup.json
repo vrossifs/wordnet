@@ -1,0 +1,11 @@
+{
+  "tiup": [
+    ["hembus", "sembur"]
+  ],
+  "hembus": [
+    ["tiup"]
+  ],
+  "sembur": [
+    ["bura", "embusan", "tiup"]
+  ]
+}

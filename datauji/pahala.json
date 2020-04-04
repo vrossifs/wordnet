@@ -1,0 +1,13 @@
+{
+  "pahala": [
+    ["balasan", "ganjaran"]
+  ],
+  "balasan": [
+    ["jawaban", "perlawanan", "reaksi", "respons", "sahutan", "sambutan", "tanggapan", "tangkisan"],
+    ["akibat", "bayaran", "ganjaran", "hukuman", "imbalan", "kisas", "pahala"]
+  ],
+  "ganjaran": [
+    ["balasan", "bonus", "bunga", "hadiah", "imbalan", "kompensasi", "pahala", "pemberian", "sagu hati", "sawab", "upah"],
+    ["hukuman", "padahan", "tentangan", "timbalan"]
+  ]
+}

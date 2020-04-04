@@ -1,0 +1,15 @@
+{
+  "kafilah": [
+    ["delegasi", "kontingen", "rombongan"]
+  ],
+  "delegasi": [
+    ["deputi", "duta", "kafilah", "kontingen", "misi", "perutusan", "perwakilan", "regu", "representatif", "rombongan", "tim", "utusan", "wakil"],
+    ["mandat", "pelimpahan wewenang"]
+  ],
+  "kontingen": [
+    ["delegasi", "kafilah", "rombongan", "tim"]
+  ],
+  "rombongan": [
+    ["delegasi", "gerombongan", "golongan", "grup", "jemaah", "kafilah", "kaum", "kawan", "kelompok", "ketumbukan", "kumpulan", "legian", "pasukan", "perhimpunan", "puak", "regu", "terup", "toboh"]
+  ]
+}

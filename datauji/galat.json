@@ -1,0 +1,27 @@
+{
+  "galat": [
+    ["cacat", "cela", "keliru", "salah", "silap"]
+  ],
+  "cacat": [
+    ["aib", "buruk", "cela", "daif", "dosa", "hina", "keji", "laif", "lata", "lemah", "leta", "nama buruk", "nista", "noda", "rendah", "wiring"],
+    ["abnormal", "bengkok", "capik", "cedera", "cempeng", "cenangga", "cengkeh kuap", "cepoh", "compeng", "compes", "cuil", "galat", "gempil", "gerepes", "geripis", "incut", "invalid", "jengkang-jengkot", "kecok", "kipa", "kurang", "luka", "lumpuh", "pecok", "pengkor", "pincang", "rempak", "rengkat", "retak", "romping", "rusak", "serpih", "sompek", "somplak", "sontak", "sumbing", "terjengket-jengket", "teweng", "timpang", "tuna"],
+    ["keliru", "salah"]
+  ],
+  "cela": [
+    ["cacat", "cedera"],
+    ["aib", "belang", "borok", "fadihat", "keburukan", "kecewa", "kejelekan", "kekurangan", "kenistaan", "noda", "retak"],
+    ["kecaman", "komentar", "kritik"]
+  ],
+  "keliru": [
+    ["alpa", "batil", "cacat", "cela"],
+    ["galat", "gawal", "invalid", "khilaf", "lalai", "lengah", "luput", "mansukh", "mengaco", "mengawur", "pelak", "peleset", "ralat", "salah", "sesat", "silap", "sumbang"]
+  ],
+  "salah": [
+    ["alpa", "cacat", "cela", "galat", "keliru", "khilaf", "lengah", "lupa", "luput", "melenceng", "meleset", "menyimpang", "terbalik"],
+    ["tertular"]
+  ],
+  "silap": [
+    ["salah lihat"],
+    ["sulap"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dam": [
+    ["bendungan", "tanggul", "waduk"]
+  ],
+  "bendungan": [
+    ["alahan", "benteng", "dam", "giligili", "pematang", "tambak", "tanggul", "tebat", "waduk"]
+  ],
+  "tanggul": [
+    ["bendungan", "dam", "tambak", "waduk"]
+  ],
+  "waduk": [
+    ["kantong nasi", "lambung", "mag", "perut besar"],
+    ["bendungan", "dam", "tanggul"]
+  ]
+}

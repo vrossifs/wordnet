@@ -1,0 +1,20 @@
+{
+  "jalin": [
+    ["anyam", "kepang", "lilit", "pintal", "rangkai"]
+  ],
+  "anyam": [
+    ["jalin", "kepang", "pilin", "pintal", "rajut", "rangkai"]
+  ],
+  "kepang": [
+    ["anyaman", "jalinan", "rangkai", "takma", "untai"]
+  ],
+  "pilin": [
+    ["pintal", "spiral"]
+  ],
+  "pintal": [
+    ["idas", "pilin", "spiral"]
+  ],
+  "rangkai": [
+    ["anyam", "berkas", "gandengan", "gugus", "jalin", "karangan", "kelompok", "kepang", "susun", "untai"]
+  ]
+}

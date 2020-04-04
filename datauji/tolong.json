@@ -1,0 +1,11 @@
+{
+  "tolong": [
+    ["bantu", "sokong"]
+  ],
+  "bantu": [
+    ["angkat", "bela", "beri", "dukung", "sangga", "santuni", "sokong", "sumbang", "tolong", "topang", "tunjang"]
+  ],
+  "sokong": [
+    ["sangga", "topang", "tunjang"]
+  ]
+}

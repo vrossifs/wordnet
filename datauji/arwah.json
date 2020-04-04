@@ -1,0 +1,48 @@
+{
+  "arwah": [
+    ["atma", "jiwa", "nyawa", "psike", "roh", "sukma"],
+    ["kegairahan", "nafsu", "semangat", "spirit", "vitalitas"]
+  ],
+  "atma": [
+    ["arwah", "jiwa", "nyawa", "roh", "spirit", "sukma"]
+  ],
+  "jiwa": [
+    ["arwah", "atma", "hayat", "nyawa", "psike", "roh", "rohani", "spirit", "sukma"],
+    ["antusiasme", "api", "dorongan", "gairah", "gelora", "nafsu", "semangat", "vitalitas"],
+    ["individu", "kapita", "kepala", "manusia", "orang", "person"],
+    ["isi", "makna", "maksud", "siratan"],
+    ["buah hati", "kekasih"]
+  ],
+  "nyawa": [
+    ["arwah", "atma", "hayat", "jiwa", "kehidupan", "roh", "semangat", "spirit", "sukma", "umur", "usia"],
+    ["semangat", "spirit", "vitalitas"],
+    ["hidup", "kehidupan", "nasib"]
+  ],
+  "psike": [
+    ["arwah", "jiwa", "nyawa", "roh", "spirit", "sukma", "rohani"]
+  ],
+  "roh": [
+    ["arwah", "jin", "jiwa", "nyawa", "orang halus", "orang hunian", "semangat", "tubuh halus"]
+  ],
+  "sukma": [
+    ["arwah", "atma", "jiwa", "nyawa", "psike", "roh"]
+  ],
+  "kegairahan": [
+    []
+  ],
+  "nafsu": [
+    ["ambisi", "animo", "antusiasme", "api", "dorongan hati", "gairah", "gelora", "hasrat", "hawa nafsu", "jiwa", "kehendak", "keinginan", "kemauan kuat", "roh", "selera", "semangat", "sir", "spirit", "vitalitas"],
+    ["hawa nafsu", "kemarahan", "nafsi"]
+  ],
+  "semangat": [
+    ["antusiasme", "api", "dorongan", "energi", "gairah", "gelora", "intensitas", "motivasi", "hawa nafsu", "spirit", "vitalitas"]
+  ],
+  "spirit": [
+    ["atma", "jiwa", "psike", "roh"],
+    ["antusiasme", "api", "dorongan", "energi", "gairah", "gelora", "hawa nafsu", "nyawa", "semangat", "vitalitas", "karakter"],
+    ["suasana"]
+  ],
+  "vitalitas": [
+    ["antusiasme", "energi", "jiwa", "kegairahan", "kekuatan", "keperkasaan", "roh", "semangat", "spirit", "stamina", "tenaga"]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "bantahan": [
+    ["sanggahan", "sangkalan", "tentangan"]
+  ],
+  "sanggahan": [
+    ["balasan", "bantahan", "gempuran", "gugatan", "hujahan", "hujatan", "jawaban", "kritik", "perlawanan", "protes", "sangkalan", "serangan", "serbuan", "tampikan", "tantangan", "tentangan", "tolakan"]
+  ],
+  "sangkalan": [
+  	["bantahan", "sanggahan"]
+  ],
+  "tentangan": [
+  	["depan", "hadapan", "muka"],
+  	["ganjaran", "imbalan", "timbalan"],
+  	["bantahan", "protes", "sanggahan", "sangkalan"]
+  ]
+}

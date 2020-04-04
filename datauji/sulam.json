@@ -1,0 +1,20 @@
+{
+  "sulam": [
+    ["bordir", "kerawang", "rekam", "suji", "tekat"]
+  ],
+  "bordir": [
+    ["kerawang", "rekam", "suji", "sulam", "tekat"]
+  ],
+  "kerawang": [
+    ["bordir", "rekam", "suji", "sulam", "tekat"]
+  ],
+  "rekam": [
+    ["lekat", "kekal", "cetak", "suji", "sulam", "tempel", "tenun"]
+  ],
+  "suji": [
+    []
+  ],
+  "tekat": [
+    []
+  ]
+}

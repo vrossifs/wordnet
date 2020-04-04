@@ -1,0 +1,19 @@
+{
+  "gajih": [
+    ["gemuk", "lemak", "minyak", "vet"]
+  ],
+  "gemuk": [
+    ["gembrot", "gempal", "gendut", "tambun"],
+    ["gajih", "lemak", "vet"]
+  ],
+  "lemak": [
+    ["gajih", "gemuk", "vet"],
+    ["minyak"]
+  ],
+  "minyak": [
+    ["patra", "petro"]
+  ],
+  "vet": [
+    ["lemak"]
+  ]
+}

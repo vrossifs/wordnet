@@ -1,0 +1,14 @@
+{
+  "tikar": [
+    ["karpet", "lampit", "permadani"]
+  ],
+  "karpet": [
+    ["ambal", "babut", "hamparan", "kasur", "kelasa", "permadani", "puadai", "tikar"]
+  ],
+  "lampit": [
+    ["kasah", "kelasa", "tikar rotan"]
+  ],
+  "permadani": [
+    ["ambal", "babut", "karpet"]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "maharani": [
+    ["padmi", "permaisuri", "ratu"]
+  ],
+  "padmi": [
+    ["maharani", "permaisuri", "rani"]
+  ],
+  "permaisuri": [
+    ["maharani", "padmi", "rani"]
+  ],
+  "ratu": [
+    ["istri raja", "maharani", "permaisuri", "raja perempuan", "rani", "sultanah", "suri"]
+  ]
+}

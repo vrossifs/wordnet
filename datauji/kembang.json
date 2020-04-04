@@ -1,0 +1,32 @@
+{
+  "kembang": [
+    ["bunga", "kesuma", "kusuma", "puspa", "puspita", "sari", "sekar"]
+  ],
+  "bunga": [
+    ["kembang", "kesuma", "kujarat", "puspa", "puspita", "sari", "sekar"],
+    ["dekorasi", "hiasan", "ornamen"],
+    ["perempuan cantik", "primadona"],
+    ["bumbu", "embel-embel", "komplemen", "pelengkap", "suplemen", "tambahan"],
+    ["anak uang", "anakan", "riba"]
+  ],
+  "kesuma": [
+    []
+  ],
+  "kusuma": [
+    ["bunga", "kembang", "kesuma", "puspa", "puspita", "sari", "sekar"]
+  ],
+  "puspa": [
+    ["bunga", "kembang", "kesuma", "kujarat", "puspita", "sari", "sekar"]
+  ],
+  "puspita": [
+    []
+  ],
+  "sari": [
+    ["biang", "ekstrak", "induk", "pati saripati"],
+    ["akar", "asas", "inti", "isi", "judul", "pokok", "sari", "tajuk", "tema", "tonggak"]
+  ],
+  "sekar": [
+    ["bunga", "kembang", "kesuma", "puspa", "puspita", "sari", "sekar"],
+    ["dendang", "gita", "kidung", "lagu", "nyanyian", "senandung", "tembang"]
+  ]
+}

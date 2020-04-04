@@ -1,0 +1,12 @@
+{
+  "jahiliah": [
+    ["kebodohan", "kesesatan"]
+  ],
+  "kebodohan": [
+    ["jahiliah", "kebegoan", "kedunguan", "kegoblokan", "ketidaktahuan", "ketololan"]
+  ],
+  "kesesatan": [
+    ["dalalat", "kekeliruan", "kesalahan", "penyimpangan"],
+    ["kebingungan"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dandang": [
+    ["belanga", "kuali"]
+  ],
+  "belanga": [
+    ["bajan", "dandang", "jambangan", "kawah", "kuali", "pasu", "periuk", "rawah", "wajan"]
+  ],
+  "kuali": [
+    ["bajan", "belanga", "kendil", "periuk"],
+    ["kancah", "kawah", "penggorengan", "wajan"]
+  ]
+}

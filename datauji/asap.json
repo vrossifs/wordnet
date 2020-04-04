@@ -1,0 +1,11 @@
+{
+  "asap": [
+    ["gas", "tabun"]
+  ],
+  "gas": [
+    ["asap", "angin", "udara"]
+  ],
+  "tabun": [
+    ["berasap", "berkelun", "berkepul", "membubung", "mendulang", "mengepu"]
+  ]
+}

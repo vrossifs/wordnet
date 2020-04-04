@@ -1,0 +1,10 @@
+{
+  "faksi": [
+    ["kelompok"]
+  ],
+  "kelompok": [
+    ["faksi", "fraksi", "gabungan", "geng", "gerombolan", "gerombong", "golongan", "grup", "gugusan", "himpunan", "ikatan", "kalangan", "kategori", "kaum", "kawanan", "keramaian", "kerumunan", "klan", "komunitas", "kubu", "kumpulan", "lingkaran"],
+    ["blok", "masyarakat", "partai", "pasukan", "perkampungan", "pihak"],
+    ["keluarga", "puak", "ras", "regu", "rombongan", "rumpun", "satuan", "sekutu", "serikat", "suku", "tim"]
+  ]
+}
