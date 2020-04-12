@@ -38,7 +38,6 @@ Synset yang sama antara Program - Validasi
 ['qadim', 'abadi'] --- ['qadim', 'abadi']
 ['tenda', 'bivak', 'kemah'] --- ['tenda', 'bivak', 'kemah']
 ['tendang', 'depak', 'sepak', 'terjang'] --- ['tendang', 'depak', 'sepak', 'terjang']
-['tolong', 'bantu'] --- ['tolong', 'bantu']
 ['tulis', 'catat'] --- ['tulis', 'catat']
 ['usap', 'belai', 'elus'] --- ['usap', 'belai', 'elus']
 ['bantahan', 'sanggahan', 'sangkalan', 'tentangan'] --- ['bantahan', 'sanggahan', 'sangkalan', 'tentangan']
@@ -47,6 +46,8 @@ Synset yang sama antara Program - Validasi
 ['idealis', 'pengkhayal', 'utopis'] --- ['idealis', 'pengkhayal', 'utopis']
 ['pukul', 'getok', 'ketuk'] --- ['pukul', 'getok', 'ketuk']
 ['maharani', 'padmi', 'permaisuri', 'ratu'] --- ['maharani', 'padmi', 'permaisuri', 'ratu']
+
+-----------
 
 Synset yang tidak sama antara Program - Validasi
 ['abah', 'haluan'] --- ['abah', 'haluan', 'jurus']
@@ -68,13 +69,13 @@ Synset yang tidak sama antara Program - Validasi
 ['umpat', 'caci', 'cerca', 'hujat'] --- ['umpat', 'caci', 'cerca']
 ['tukar', 'ganti', 'salin', 'ubah', 'silih'] --- ['tukar', 'ganti', 'salin', 'ubah']
 ['ampun', 'maaf', 'sori'] --- ['ampun', 'maaf']
+['gas', 'asap', 'angin'] --- ['gas', 'angin']
+['gas', 'asap', 'angin'] --- ['gas', 'asap']
 ['gelar', 'sebutan', 'titel'] --- ['gelar', 'sebutan']
 ['gelar', 'sebutan', 'titel'] --- ['gelar', 'titel']
 ['lompat', 'kinja', 'loncat'] --- ['lompat', 'kinja']
 ['lompat', 'kinja', 'loncat'] --- ['lompat', 'loncat']
 ['tiup', 'hembus', 'sembur'] --- ['tiup', 'hembus']
-['gas', 'asap', 'angin'] --- ['gas', 'angin']
-['gas', 'asap', 'angin'] --- ['gas', 'asap']
 ['agar', 'biar', 'supaya', 'mudah-mudahan'] --- ['agar', 'biar', 'supaya']
 ['ceker', 'cakar', 'kuku', 'kaki'] --- ['ceker', 'cakar', 'kuku']
 ['gosok', 'asah', 'calak', 'gesek'] --- ['gosok', 'asah', 'calak']

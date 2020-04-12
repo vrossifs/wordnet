@@ -1,7 +1,6 @@
 Synset yang sama antara Program - Validasi
 ['aborsi', 'pengguguran'] --- ['aborsi', 'pengguguran']
 ['abrasi', 'erosi', 'pengikisan'] --- ['abrasi', 'erosi', 'pengikisan']
-['acuh', 'hirau', 'hisab', 'peduli'] --- ['acuh', 'hirau', 'hisab', 'peduli']
 ['aduk', 'baur', 'campur'] --- ['aduk', 'baur', 'campur']
 ['agar', 'biar', 'supaya'] --- ['agar', 'biar', 'supaya']
 ['ahad', 'minggu'] --- ['ahad', 'minggu']
@@ -32,6 +31,7 @@ Synset yang sama antara Program - Validasi
 ['gagu', 'bisu', 'tunawicara'] --- ['gagu', 'bisu', 'tunawicara']
 ['galat', 'cacat', 'keliru', 'salah'] --- ['galat', 'cacat', 'keliru', 'salah']
 ['gas', 'angin'] --- ['gas', 'angin']
+['gas', 'asap'] --- ['gas', 'asap']
 ['gelar', 'sebutan'] --- ['gelar', 'sebutan']
 ['gelar', 'titel'] --- ['gelar', 'titel']
 ['gosok', 'asah', 'calak'] --- ['gosok', 'asah', 'calak']
@@ -48,7 +48,6 @@ Synset yang sama antara Program - Validasi
 ['langgar', 'bentur', 'tabrak'] --- ['langgar', 'bentur', 'tabrak']
 ['lompat', 'kinja'] --- ['lompat', 'kinja']
 ['lompat', 'loncat'] --- ['lompat', 'loncat']
-['madukara', 'kumbang', 'lebah', 'tawon'] --- ['madukara', 'kumbang', 'lebah', 'tawon']
 ['mambang', 'hantu'] --- ['mambang', 'hantu']
 ['mampir', 'singgah'] --- ['mampir', 'singgah']
 ['nahas', 'apes'] --- ['nahas', 'apes']
@@ -65,12 +64,12 @@ Synset yang sama antara Program - Validasi
 ['tenda', 'bivak', 'kemah'] --- ['tenda', 'bivak', 'kemah']
 ['tendang', 'depak', 'sepak', 'terjang'] --- ['tendang', 'depak', 'sepak', 'terjang']
 ['tiup', 'hembus'] --- ['tiup', 'hembus']
-['tolong', 'bantu'] --- ['tolong', 'bantu']
 ['tukar', 'ganti', 'salin', 'ubah'] --- ['tukar', 'ganti', 'salin', 'ubah']
 ['tulis', 'catat'] --- ['tulis', 'catat']
 ['umpat', 'caci', 'cerca'] --- ['umpat', 'caci', 'cerca']
 ['usap', 'belai', 'elus'] --- ['usap', 'belai', 'elus']
-['gas', 'asap'] --- ['gas', 'asap']
+
+-----------
 
 Synset yang tidak sama antara Program - Validasi
 ['abah', 'haluan'] --- ['abah', 'haluan', 'jurus']
@@ -104,3 +103,5 @@ Synset yang tidak sama antara Program - Validasi
 ['pukul'] --- ['pukul', 'jam']
 ['tikar', 'karpet'] --- ['tikar', 'karpet', 'lampit']
 ['tusuk', 'tancap'] --- ['tusuk', 'cocok', 'tancap', 'tikam']
+['acuh', 'hirau', 'hisab', 'peduli', 'ingat'] --- ['acuh', 'hirau', 'hisab', 'peduli']
+['madukara', 'kumbang', 'lebah', 'tawon', 'tabuhan'] --- ['madukara', 'kumbang', 'lebah', 'tawon']

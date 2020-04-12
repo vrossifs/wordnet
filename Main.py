@@ -60,42 +60,42 @@ if __name__ == '__main__':
     for x in read_input():
         list_kata.append(str(x).replace('\n',''))
 
-    # ----- start process 1
+    # # ----- start process 1
 
-    # memproses kata untuk menjadi synset
-    synset_dataset = []
+    # # memproses kata untuk menjadi synset
+    # synset_dataset = []
 
-    for x in list_kata:
-        ds = 'datauji/{}.json'
-        synset_dataset.append(alt_gen(x, open(ds.format(x)))) # synset_dataset.append(alt_gen('aborsi', open('datauji/aborsi.json'))) dan seterusnya
+    # for x in list_kata:
+    #     ds = 'datauji/{}.json'
+    #     synset_dataset.append(alt_gen(x, open(ds.format(x)))) # synset_dataset.append(alt_gen('aborsi', open('datauji/aborsi.json'))) dan seterusnya
 
-    # mencetak hasil synset pada file .txt
-    output_komutatif = open('output/output komutatif.txt', 'w+')
-    for k in synset_dataset:
+    # # mencetak hasil synset pada file .txt
+    # output_komutatif = open('output/output komutatif.txt', 'w+')
+    # for k in synset_dataset:
         
-        # penyesuaian format data uji
-        hapuski2 = str(k).replace('[[','[')
-        hapuska2 = hapuski2.replace(']]',']')
-        hapuski3 = hapuska2.replace('[[','[')
-        hapuska3 = hapuski3.replace(']]',']')
-        hapussp = hapuska3.replace('],',']\n')
-        synset = hapussp.replace(' [','[')
+    #     # penyesuaian format data uji
+    #     hapuski2 = str(k).replace('[[','[')
+    #     hapuska2 = hapuski2.replace(']]',']')
+    #     hapuski3 = hapuska2.replace('[[','[')
+    #     hapuska3 = hapuski3.replace(']]',']')
+    #     hapussp = hapuska3.replace('],',']\n')
+    #     synset = hapussp.replace(' [','[')
 
-        output_synset = (synset)
-        output_komutatif.write(str(output_synset) + '\n')
-    output_komutatif.close()
+    #     output_synset = (synset)
+    #     output_komutatif.write(str(output_synset) + '\n')
+    # output_komutatif.close()
 
-    print()
-    print('-----------')
-    print()
+    # print()
+    # print('-----------')
+    # print()
 
-    print('output komutatif.txt has been created sucsessfully')
+    # print('output komutatif.txt has been created sucsessfully')
 
-    print()
-    print('-----------')
-    print()
+    # print()
+    # print('-----------')
+    # print()
 
-    # ----- finish process 1
+    # # ----- finish process 1
 
     # -----
 
@@ -135,13 +135,14 @@ if __name__ == '__main__':
 
     #hitung similarity terbesar
     similarity = Clustering.big_similarity(cluster[0])
-    # print("Maximum similarity :",similarity)
+    print("Maximum similarity :",similarity)
     distance, distance1, distance2 = Clustering.big_distance(cluster[1])
-    # print("Maximum distance value :",distance)
-    # print("Index Distance : ", distance1, distance2)
+    print("Maximum distance value :",distance)
+    print("Index Distance : ", distance1, distance2)
 
     #hitung nilai threshold
-    koefisien = 1.0
+    koefisien = 0.1
+    print("Koefisien : ",koefisien)
     threshold = distance*koefisien
     print( "Threshold value : ",threshold)
 
@@ -210,7 +211,7 @@ if __name__ == '__main__':
     print('-----------')
     print()
     
-    hasil_clustering = preprocessing(read_hasil_clustering(output_clustering))
+    hasil_clustering = preprocessing(read_hasil_clustering('output/output komutatif.txt'))
     hasil_validasi = preprocessing(read_validasi())
 
     synset_clustering = []
@@ -269,7 +270,7 @@ if __name__ == '__main__':
     recall = (kata_sama / data_validasi) * 100
     fmeasure = 2*((precission*recall)/(precission+recall))
 
-    # print("Looping: ", looping)
+    print("Looping: ", looping)
     print("Precission : (",kata_sama,"/",data_program,") x 100 =",round(precission, 2))
     print("Recall : (",kata_sama,"/",data_validasi,") x 100 =",round(recall, 2))
     print("F measure : ", round(fmeasure, 2))
