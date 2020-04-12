@@ -74,7 +74,7 @@
 ['padas', 'cadas']
 ['pahala', 'balasan', 'ganjaran']
 ['pukul', 'getok', 'ketuk']
-['pukul']
+['pukul', 'jam']
 ['qadim', 'abadi']
 ['sulam', 'bordir', 'kerawang']
 ['sulam', 'rekam']

@@ -122,11 +122,11 @@ if __name__ == '__main__':
     merge_synset = merge_synset(synset)
     cluster = Clustering.agglomerative_clustering(merge_synset)
     distance_value = pandas.DataFrame(cluster[1])
-    ytdist = distance_value
-    Z = hierarchy.linkage(ytdist, 'complete')
-    pyplot.figure()
-    dendrogram = hierarchy.dendrogram(Z)
-    pyplot.show()
+    # ytdist = distance_value
+    # Z = hierarchy.linkage(ytdist, 'complete')
+    # pyplot.figure()
+    # dendrogram = hierarchy.dendrogram(Z)
+    # pyplot.show()
 
     #tampil distance value & matrix similarity synsets
     print("Distance Value: ")
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     print("Index Distance : ", distance1, distance2)
 
     #hitung nilai threshold
-    koefisien = 0.5
+    koefisien = 1.0
     print("Koefisien : ",koefisien)
     threshold = distance*koefisien
     print( "Threshold value : ",threshold)
@@ -211,7 +211,7 @@ if __name__ == '__main__':
     print('-----------')
     print()
     
-    hasil_clustering = preprocessing(read_hasil_clustering('output/output komutatif.txt'))
+    hasil_clustering = preprocessing(read_hasil_clustering(output_clustering))
     hasil_validasi = preprocessing(read_validasi())
 
     synset_clustering = []
