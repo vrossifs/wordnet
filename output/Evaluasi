@@ -1,0 +1,93 @@
+koef 0.1
+Maximum similarity : 0
+Maximum distance value : 0
+Looping:  41
+synset: 80
+precision : 85.0
+recall : 71.58
+f-measure : 77.71
+
+koef 0.2
+Maximum similarity : 1.0
+Maximum distance value : 0.17
+Looping:  38
+synset: 83
+precision : 85.54
+recall : 74.74
+f-measure : 79.78
+
+koef 0.3
+Maximum similarity : 1.0
+Maximum distance value : 0.25
+Looping:  29
+synset: 93
+precision : 81.52
+recall : 78.95
+f-measure : 80.21
+
+koef 0.4
+Maximum similarity : 1.0
+Maximum distance value : 0.33
+Looping:  20
+synset: 101
+precision : 80.2
+recall : 85.26
+f-measure : 82.65
+
+koef 0.5
+Maximum similarity : 3.0
+Maximum distance value : 0.43
+Looping:  17
+synset: 104
+precision : 78.85
+recall : 86.32
+f-measure : 82.41
+
+koef 0.6
+Maximum similarity : 3.0
+Maximum distance value : 0.5
+Looping:  9
+synset: 112
+precision : 77.68
+recall : 91.58
+f-measure : 84.06
+
+koef 0.7
+Maximum similarity : 3.0
+Maximum distance value : 0.6
+synset: 114
+precision : 77.19
+recall : 92.68
+f-measure : 84.21
+
+koef 0.8
+Maximum similarity : 3.0
+Maximum distance value : 0.6
+Looping:  7
+synset: 114
+precision : 77.19
+recall : 92.68
+f-measure : 84.21
+
+koef 0.9
+Maximum similarity : 3.0
+Maximum distance value : 0.6
+Looping:  7
+synset: 114
+precision : 77.19
+recall : 92.68
+f-measure : 84.21
+
+koef 1.0
+Maximum similarity : 3.0
+Maximum distance value : 0.6
+Looping:  7
+synset: 114
+precision : 77.19
+recall : 92.68
+f-measure : 84.21
+
+komutatif
+precision : 51.3
+recall : 62.11
+f-measure : 56.19

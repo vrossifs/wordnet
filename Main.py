@@ -122,11 +122,11 @@ if __name__ == '__main__':
     merge_synset = merge_synset(synset)
     cluster = Clustering.agglomerative_clustering(merge_synset)
     distance_value = pandas.DataFrame(cluster[1])
-    ytdist = distance_value
-    Z = hierarchy.linkage(ytdist, 'complete')
-    pyplot.figure()
-    dendrogram = hierarchy.dendrogram(Z)
-    pyplot.show()
+    # ytdist = distance_value
+    # Z = hierarchy.linkage(ytdist, 'complete')
+    # pyplot.figure()
+    # dendrogram = hierarchy.dendrogram(Z)
+    # pyplot.show()
 
     #tampil distance value & matrix similarity synsets
     print("Distance Value: ")
@@ -135,13 +135,13 @@ if __name__ == '__main__':
 
     #hitung similarity terbesar
     similarity = Clustering.big_similarity(cluster[0])
-    print("Maximum similarity :",similarity)
-    distance,distance1, distance2 = Clustering.big_distance(cluster[1])
-    print("Maximum distance value :",distance)
-    print("Index Distance : ", distance1, distance2)
+    # print("Maximum similarity :",similarity)
+    distance, distance1, distance2 = Clustering.big_distance(cluster[1])
+    # print("Maximum distance value :",distance)
+    # print("Index Distance : ", distance1, distance2)
 
     #hitung nilai threshold
-    koefisien = 0.3
+    koefisien = 1.0
     threshold = distance*koefisien
     print( "Threshold value : ",threshold)
 
@@ -163,7 +163,6 @@ if __name__ == '__main__':
 
         datadistance1 = datadistance1.drop([distance1, distance2])
         datadistance1 = datadistance1.drop([distance1, distance2], axis=1)
-        #print(datadistance1)
 
         merge_synset.pop(distance1)
         merge_synset.pop(distance2-1)
@@ -188,7 +187,7 @@ if __name__ == '__main__':
             # print("Merged Synsets Baru: ", merged_synset)
             looping = looping + 1
     
-    output_clustering = "output/output clustering.txt"
+    output_clustering = "output/output Koefisien_"+str(koefisien)+".txt"
     simpan_hasil = open(output_clustering, 'w')
 
     kata = "\n".join(str(x) for x in merge_synset)
@@ -205,7 +204,7 @@ if __name__ == '__main__':
     print('-----------')
     print()
 
-    print('output clustering.txt has been created successfully')
+    print('file output clustering has been created successfully')
 
     print()
     print('-----------')
@@ -236,7 +235,7 @@ if __name__ == '__main__':
                     synset_clustering.append(hasil_clustering[i])
                     synset_validasi.append(hasil_validasi[j])
 
-    synsets = []
+    synsets = []            
 
     for i in range(0, len(synset_clustering)):
         if i % 2 == 0:
@@ -258,7 +257,7 @@ if __name__ == '__main__':
             print(synset_clustering[i],'---',synset_validasi[i])
 
     print()
-    print('------------------')
+    print('-----------')
     print()
 
     kata_sama = len(synsets)
@@ -270,6 +269,7 @@ if __name__ == '__main__':
     recall = (kata_sama / data_validasi) * 100
     fmeasure = 2*((precission*recall)/(precission+recall))
 
+    # print("Looping: ", looping)
     print("Precission : (",kata_sama,"/",data_program,") x 100 =",round(precission, 2))
     print("Recall : (",kata_sama,"/",data_validasi,") x 100 =",round(recall, 2))
     print("F measure : ", round(fmeasure, 2))

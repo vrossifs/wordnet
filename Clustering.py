@@ -37,6 +37,7 @@ def big_distance(data):
                 distance_2 = j
                 if value_distance == 1:
                     break
+
     return value_distance, distance_1, distance_2
 
 def new_synsets(data, distance1, distance2):

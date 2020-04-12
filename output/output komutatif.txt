@@ -27,7 +27,6 @@
 ['bingkai', 'simpai']
 ['bisik', 'kisik']
 ['buat']
-['buat']
 ['bagi', 'buat', 'untuk']
 ['cabuk', 'kelemayuh', 'pekung']
 ['cadar', 'kerudung', 'selubung']
