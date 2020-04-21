@@ -2,19 +2,19 @@ import re, pandas, time, Clustering, matplotlib.pyplot as pyplot
 from scipy.cluster import hierarchy
 from Komutatif import alt_gen
 
-def read_input():
+def get_input():
     file = open('datauji/Input.txt')
     return file.readlines()
 
-def read_validasi():
+def get_validasi():
     file = open('datauji/Validasi.txt')
     return file.readlines()
 
-def read_dataset():
+def get_dataset():
     file = open('output/output komutatif.txt')
     return file.readlines()
 
-def read_hasil_clustering(file):
+def get_hasil_clustering(file):
     file = open(file)
     return file.readlines()
 
@@ -23,7 +23,7 @@ def preprocessing(data):
     record = []
     kata = []
 
-    #bersih char sebelah kanan
+    #hapus karakter yang tidak digunakan di sebelah kanan
     for i in range(len(data)):
         data[i] = data[i].rstrip()
         if len(data[i]) > 1:
@@ -43,7 +43,7 @@ def preprocessing(data):
         kata.append(string)
     return kata
 
-def merge_synset(data):
+def gabung_synset(data):
     merge = []
     for i in range(len(data)):
         hasil = []
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
     # read query input
     list_kata = []
-    for x in read_input():
+    for x in get_input():
         list_kata.append(str(x).replace('\n',''))
 
     # ----- start process 1
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
     synset_temp = []
     synset = []
-    for x in preprocessing(read_dataset()):
+    for x in preprocessing(get_dataset()):
         if len(x) > 1:
             for i in range(len(x)):
                 for j in range(len(list_kata)):
@@ -119,29 +119,29 @@ if __name__ == '__main__':
                 synset_temp[a].insert(0, list_kata[b])
                 synset.append(synset_temp[a])
 
-    merge_synset = merge_synset(synset)
-    cluster = Clustering.agglomerative_clustering(merge_synset)
+    gabung_synset = gabung_synset(synset)
+    cluster = Clustering.agglomerative(gabung_synset)
     distance_value = pandas.DataFrame(cluster[1])
-    # ytdist = distance_value
-    # Z = hierarchy.linkage(ytdist, 'complete')
-    # pyplot.figure()
-    # dendrogram = hierarchy.dendrogram(Z)
-    # pyplot.show()
+    ytdist = distance_value
+    Z = hierarchy.linkage(ytdist, 'complete')
+    pyplot.figure()
+    dendrogram = hierarchy.dendrogram(Z)
+    pyplot.show()
 
     #tampil distance value & matrix similarity synsets
     print("Distance Value: ")
     print(distance_value)
     print(pandas.DataFrame(cluster[0]))
 
-    #hitung similarity terbesar
-    similarity = Clustering.big_similarity(cluster[0])
+    #hitung max similarity
+    similarity = Clustering.maksimum_similarity(cluster[0])
     print("Maximum similarity :",similarity)
-    distance, distance1, distance2 = Clustering.big_distance(cluster[1])
+    distance, distance1, distance2 = Clustering.maksimum_distance(cluster[1])
     print("Maximum distance value :",distance)
     print("Index Distance : ", distance1, distance2)
 
     #hitung nilai threshold
-    koefisien = 1.0
+    koefisien = 0.9
     print("Koefisien : ",koefisien)
     threshold = distance*koefisien
     print( "Threshold value : ",threshold)
@@ -151,10 +151,10 @@ if __name__ == '__main__':
     print()
 
     # kandidat synsets yang memiliki kata yang sama
-    synset_baru = Clustering.new_synsets(merge_synset, distance1, distance2)
+    synset_baru = Clustering.synsets_baru(gabung_synset, distance1, distance2)
 
     # merge synsets kata yang sama
-    merged_synset = Clustering.merged_synsets(synset_baru)
+    merged_synset = Clustering.synsets_gabung(synset_baru)
 
     looping = 1
     while (distance >= threshold):
@@ -165,33 +165,33 @@ if __name__ == '__main__':
         datadistance1 = datadistance1.drop([distance1, distance2])
         datadistance1 = datadistance1.drop([distance1, distance2], axis=1)
 
-        merge_synset.pop(distance1)
-        merge_synset.pop(distance2-1)
-        merge_synset.append(merged_synset)
+        gabung_synset.pop(distance1)
+        gabung_synset.pop(distance2-1)
+        gabung_synset.append(merged_synset)
 
-        #print("Jumlah Baru: ", len(merge_synset))
-        cluster = Clustering.agglomerative_clustering(merge_synset)
+        #print("Jumlah Baru: ", len(gabung_synset))
+        cluster = Clustering.agglomerative(gabung_synset)
         distance_value = pandas.DataFrame(cluster[1])
         #print(distance_value)
 
-        similarity = Clustering.big_similarity(cluster[0])
+        similarity = Clustering.maksimum_similarity(cluster[0])
         print("Maximum similarity:", round(similarity, 2))
-        distance, distance1, distance2 = Clustering.big_distance(cluster[1])
+        distance, distance1, distance2 = Clustering.maksimum_distance(cluster[1])
         print("Maximum distance value: ", round(distance, 2))
         #print("Index Distance: ", distance1, distance2)
 
         if distance >= threshold:
             #print("Looping ", looping)
-            synset_baru = Clustering.new_synsets(merge_synset, distance1, distance2)
+            synset_baru = Clustering.synsets_baru(gabung_synset, distance1, distance2)
             # print("Kandidat Merge Synsets: ", synset_baru)
-            merged_synset = Clustering.merged_synsets(synset_baru)
+            merged_synset = Clustering.synsets_gabung(synset_baru)
             # print("Merged Synsets Baru: ", merged_synset)
             looping = looping + 1
     
     output_clustering = "output/output Koefisien_"+str(koefisien)+".txt"
     simpan_hasil = open(output_clustering, 'w')
 
-    kata = "\n".join(str(x) for x in merge_synset)
+    kata = "\n".join(str(x) for x in gabung_synset)
     simpan_hasil.write(kata)
     simpan_hasil.close()
 
@@ -205,14 +205,14 @@ if __name__ == '__main__':
     print('-----------')
     print()
 
-    print('file output clustering has been created successfully')
+    print('file output Koefisien_'+str(koefisien)+'.txt has been created successfully')
 
     print()
     print('-----------')
     print()
     
-    hasil_clustering = preprocessing(read_hasil_clustering(output_clustering))
-    hasil_validasi = preprocessing(read_validasi())
+    hasil_clustering = preprocessing(get_hasil_clustering(output_clustering))
+    hasil_validasi = preprocessing(get_validasi())
 
     synset_clustering = []
     synset_validasi = []
@@ -241,25 +241,6 @@ if __name__ == '__main__':
     for i in range(0, len(synset_clustering)):
         if i % 2 == 0:
             synsets.append([synset_clustering[i], synset_validasi[i]])
-
-    print('Synset yang sama antara Program - Validasi')
-    for i in range(0, len(synset_clustering)):
-        if i % 2 == 0:
-            if synset_clustering[i] == synset_validasi[i]:
-                print(synset_clustering[i],'---',synset_validasi[i])
-
-    print()
-    print('-----------')
-    print()
-
-    print('Synset yang tidak sama antara Program - Validasi')
-    for i in range(0, len(synset_clustering)):
-        if synset_clustering[i] != synset_validasi[i]:
-            print(synset_clustering[i],'---',synset_validasi[i])
-
-    print()
-    print('-----------')
-    print()
 
     kata_sama = len(synsets)
     data_validasi = len(hasil_validasi)

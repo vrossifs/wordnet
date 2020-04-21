@@ -1,6 +1,6 @@
 import numpy as n
 
-def agglomerative_clustering(data):
+def agglomerative(data):
     distance_value = [[0 for col in range(len(data))] for row in range(len(data))]
     similarity = n.zeros((len(data), len(data)))
     for i in range(0, len(data)):
@@ -17,7 +17,7 @@ def agglomerative_clustering(data):
 
     return similarity, distance_value
 
-def big_similarity(data):
+def maksimum_similarity(data):
     value_similarity = 0
     for i in range(0, len(data)):
         for j in range(0, len(data)):
@@ -25,7 +25,7 @@ def big_similarity(data):
                 value_similarity = data[i][j]
     return value_similarity
 
-def big_distance(data):
+def maksimum_distance(data):
     value_distance = 0
     distance_1 = 0
     distance_2 = 0
@@ -40,13 +40,13 @@ def big_distance(data):
 
     return value_distance, distance_1, distance_2
 
-def new_synsets(data, distance1, distance2):
+def synsets_baru(data, distance1, distance2):
     synsets = []
     synsets.append(data[distance1])
     synsets.append(data[distance2])
     return synsets
 
-def merged_synsets(data):
+def synsets_gabung(data):
     if len(data)>1:
         merged = data[0]
         for i in range(1, len(data)):
